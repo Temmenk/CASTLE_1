@@ -93,7 +93,7 @@ public class PlayerBehavior : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.name == "Enemy")
+        if(collision.gameObject.name == "enemy")
         {
             int damage = 1;
             if (_gameManager.Armor > 0)
